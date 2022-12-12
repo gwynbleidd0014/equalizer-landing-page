@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  background: hsla(20, 33%, 98%, 1);
+  width: 100vw;
+}
+
+/* HEADER STYLES */
+.header {
+  padding-top: 40px;
+  margin-left: 24px;
+  background-image: url(./assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: -20px -230px;
+  margin-bottom: 166px;
+}
+.logo-wrapper {
+  margin-bottom: 64px;
+}
+
+.logo {
+  height: 2em;
+}
+
+.main-heading {
+  max-width: 327px;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 48px;
+  letter-spacing: -0.45px;
+  color: hsla(244, 23%, 12%, 1);
+  margin-bottom: 20px;
+}
+
+.main-text {
+  color: hsla(244, 23%, 12%, 1);
+  line-height: 26px;
+}
+
+/* MAIN STYLES */
+.main {
+  height: 925px;
+  position: relative;
+  color: hsla(20, 33%, 98%, 1);
+  margin-bottom: 64px;
+}
+
+.top-card {
+  border-radius: 12px;
+  height: 600px;
+  background: url(./assets/bg-pattern-2.svg) no-repeat top,
+    hsla(242, 22%, 12%, 1);
+  background-size: 75%;
+}
+.mobile-icon {
+  position: absolute;
+  top: -98px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 208px;
+}
+.bottom-card {
+  padding: 48px 32px;
+  border-radius: 12px;
+  width: 100%;
+  position: absolute;
+  top: 380px;
+  left: 0;
+  height: 546px;
+  background: hsla(12, 94%, 65%, 1);
+}
+
+.card-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 40px;
+  margin-bottom: 12px;
+}
+
+.card-text {
+  font-size: 1.125rem;
+  margin-bottom: 36px;
+}
+
+.card-price {
+  font-size: 4rem;
+  margin-bottom: 32px;
+}
+.card-month {
+  font-size: 1.25rem;
+}
+
+/* -------- BUTTONS -------- */
+
+.btn {
+  border: none;
+  height: 61px;
+  width: 296px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  gap: 8px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: hsla(244, 23%, 12%, 1);
+  margin-bottom: 16px;
+}
+
+.btn-ios {
+  background: hsla(244, 23%, 12%, 1);
+  color: hsla(20, 33%, 98%, 1);
+}
+
+.btn-ios:hover {
+  background: hsla(177, 68%, 64%, 1);
+}
+
+.btn-android:hover {
+  background: hsla(33, 100%, 70%, 1);
+}
+/* FOOTER */
+
+.footer {
+  margin-left: 24px;
+  color: hsla(244, 23%, 12%, 1);
+  padding-bottom: 80px;
+}
+.footer > .logo-wrapper {
+  margin-bottom: 32px;
+}
+
+.footer-text {
+  font-weight: 400;
+  max-width: 327px;
+  margin-bottom: 64px;
+}
+
+.footer-text > span {
+  font-weight: 700;
+  display: block;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
