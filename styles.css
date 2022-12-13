@@ -13,6 +13,7 @@ html {
 body {
   background: hsla(20, 33%, 98%, 1);
   width: 100vw;
+  overflow-x: hidden;
 }
 
 /* HEADER STYLES */
@@ -266,7 +267,8 @@ body {
 /* FOOTER TABLET */
 @media (min-width: 768px) {
   .footer {
-    width: 90%;
+    width: 696px;
+    margin: 0 auto;
   }
   .footer-details {
     display: flex;
@@ -282,7 +284,6 @@ body {
 /* FOOTER FOR DESKTOP */
 @media (min-width: 1440px) {
   .footer {
-    margin: 0 auto;
     width: 77%;
     display: flex;
     justify-content: flex-start;
