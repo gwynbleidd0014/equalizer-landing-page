@@ -30,4 +30,4 @@ This is a solution to a challange from front end mentors.
 
 ## Author
 
-- Hi I'm Ucha, you might know me as gwynbleidd0014 on github- [gwynbleidd0014](https://www.twitter.com/yourusername)
+- Hi I'm Ucha, you might know me as gwynbleidd0014 on github- [gwynbleidd0014](https://github.com/gwynbleidd0014)
